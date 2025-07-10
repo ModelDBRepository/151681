@@ -1,19 +1,19 @@
 # Model files for the paper
 
-**"Distributed organization of a brain microcircuit analysed by  
-three-dimensional modeling: the olfactory bulb"** by Migliore M,  
-Cavarretta F, Hines ML, Shepherd, GM *Frontiers in Computational  
+**"Distributed organization of a brain microcircuit analysed by 
+three-dimensional modeling: the olfactory bulb"** by Migliore M, 
+Cavarretta F, Hines ML, Shepherd, GM *Frontiers in Computational 
 Neuroscience* (2014), doi: 10.3389/fncom.2014.00050
 
 A full HD version of movie 1 of the paper can be downloaded from:
 
 http://senselab.med.yale.edu/modeldb/data/151681/movie1.mp4
 
-To run a simulation or visualize the results, the following files need  
+To run a simulation or visualize the results, the following files need 
 to be placed in the same directory of the main code:
 
-- fig7.weight.dat  
-- c10.dic  
+- fig7.weight.dat 
+- c10.dic 
 - mitral.dump
 
 They can be downloaded from:  
@@ -23,9 +23,9 @@ http://senselab.med.yale.edu/modeldb/data/151681/bulb3d-files.zip
 
 The simulation requires NEURON 7.3 with python.
 
-After compilation of the mod files the simulation can be run with a  
-script and a command line that depends on your parallel computer  
-system. For an IBM BlueGene/Q, such as the FERMI system at CINECA  
+After compilation of the mod files the simulation can be run with a 
+script and a command line that depends on your parallel computer 
+system. For an IBM BlueGene/Q, such as the FERMI system at CINECA 
 (Bologna, Italy), the command line was
 
 ```
@@ -40,10 +40,10 @@ The final weight files need to be compacted with
 ```
 cat fig7.weight.dat.* > fig7.weight.dat
 ```
-  
+ 
 ## Visualization
 
-The visualization requires the Enthought.com Mayavi installed. To  
+The visualization requires the Enthought.com Mayavi installed. To 
 visualize a version of Fig.7C of the paper including granule cells:
 
 ```
